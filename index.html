@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>2-Month Backend Engineering Internship Training Program</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 15mm;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+    .cover {
+      text-align: center;
+      padding: 80px 20px;
+      page-break-after: always;
+    }
+    
+    .cover h1 {
+      font-size: 28px;
+      color: #1e40af;
+      margin-bottom: 20px;
+    }
+    
+    .cover .subtitle {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 30px;
+    }
+    
+    .cover .focus {
+      background: #f0f4ff;
+      padding: 20px;
+      border-radius: 8px;
+      margin: 20px auto;
+      max-width: 500px;
+    }
+    
+    h2 {
+      color: #1e40af;
+      font-size: 20px;
+      margin: 25px 0 15px 0;
+      padding-bottom: 5px;
+      border-bottom: 3px solid #3b82f6;
+      page-break-after: avoid;
+    }
+    
+    h3 {
+      color: #2563eb;
+      font-size: 16px;
+      margin: 20px 0 10px 0;
+      page-break-after: avoid;
+    }
+    
+    h4 {
+      color: #1e40af;
+      font-size: 14px;
+      margin: 12px 0 8px 0;
+      font-weight: 600;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+      page-break-inside: avoid;
+    }
+    
+    th {
+      background: #1e40af;
+      color: white;
+      padding: 10px;
+      text-align: left;
+      font-size: 13px;
+    }
+    
+    td {
+      padding: 8px 10px;
+      border: 1px solid #ddd;
+      font-size: 12px;
+    }
+    
+    tr:nth-child(even) {
+      background: #f8f9fa;
+    }
+    
+    .day-box {
+      background: #f8f9fa;
+      border-left: 4px solid #3b82f6;
+      padding: 15px;
+      margin: 20px 0;
+      page-break-inside: avoid;
+    }
+    
+    .session {
+      background: white;
+      border: 1px solid #e0e0e0;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 4px;
+    }
+    
+    .session-title {
+      font-weight: bold;
+      color: #1e40af;
+      margin-bottom: 5px;
+      font-size: 13px;
+    }
+    
+    ul {
+      margin: 8px 0;
+      padding-left: 20px;
+    }
+    
+    li {
+      margin: 4px 0;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    
+    .assignment {
+      background: #fff9e6;
+      border-left: 4px solid #f59e0b;
+      padding: 12px;
+      margin: 12px 0;
+      border-radius: 4px;
+    }
+    
+    .assignment h4 {
+      color: #92400e;
+      margin-top: 0;
+    }
+    
+    .deliverable {
+      background: #e6f7ed;
+      border-left: 4px solid #10b981;
+      padding: 12px;
+      margin: 12px 0;
+      border-radius: 4px;
+    }
+    
+    .week-header {
+      background: linear-gradient(to right, #1e40af, #3b82f6);
+      color: white;
+      padding: 15px;
+      margin: 25px 0 15px 0;
+      border-radius: 6px;
+      page-break-before: always;
+      page-break-after: avoid;
+    }
+    
+    .week-header h2 {
+      color: white;
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .week-header p {
+      margin: 5px 0 0 0;
+      font-size: 13px;
+      opacity: 0.9;
+    }
+    
+    .info-box {
+      background: #e0f2fe;
+      border-left: 4px solid #0284c7;
+      padding: 12px;
+      margin: 12px 0;
+      border-radius: 4px;
+    }
+    
+    .capstone {
+      background: #fef3c7;
+      border: 2px solid #f59e0b;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      page-break-inside: avoid;
+    }
+    
+    @media print {
+      body {
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- COVER PAGE -->
+<div class="cover">
+  <h1>Internship Training Program for Saikumar Jannu</h1>
+  <div class="subtitle">Complete Day-Wise Learning Guide</div>
+  <div class="focus">
+    <strong>Focus Areas:</strong><br>
+   <em>Primary:</em> Backend Engineering • Cloud Technologies • Data Engineering<br>
+    <em>Secondary: QA Automation</em>
+  </div>
+  <div style="margin-top: 40px; color: #666; font-size: 13px;">
+    Duration: 8 Weeks (40 Days)<br>
+    Format: Structured Daily Sessions + Hands-on Projects
+  </div>
+</div>
+
+<!-- SKILL ALLOCATION -->
+<h2>Overall Skill Allocation</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Area</th>
+      <th>Weight</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Python (Core + Backend)</td><td>25%</td></tr>
+    <tr><td>SQL & Stored Procedures</td><td>20%</td></tr>
+    <tr><td>Snowflake</td><td>15%</td></tr>
+    <tr><td>AWS + Kubernetes</td><td>25%</td></tr>
+    <tr><td>QA Automation (Secondary)</td><td>15%</td></tr>
+  </tbody>
+</table>
+
+<!-- WEEK 1 -->
+<div class="week-header">
+  <h2>Week 1: Python Fundamentals</h2>
+  <p>Building strong Python basics for backend, data, and automation</p>
+</div>
+
+<div class="day-box">
+  <h3>Day 1: Getting Started with Python</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Development environment setup (Python, VS Code, Git)</li>
+      <li>Python syntax and indentation rules</li>
+      <li>Your first Python program</li>
+      <li>PEP8 style guide introduction</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Data types: integers, floats, strings, booleans</li>
+      <li>Variables and naming conventions</li>
+      <li>Basic input/output operations</li>
+      <li>Comments and documentation</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>Write 5 programs: Hello World, age calculator, temperature converter, string manipulator, basic math operations</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 2: Collections and Data Structures</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Lists: creation, indexing, slicing</li>
+      <li>List methods (append, remove, sort, etc.)</li>
+      <li>Tuples and their immutability</li>
+      <li>When to use lists vs tuples</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Sets and set operations</li>
+      <li>Dictionaries: key-value pairs</li>
+      <li>Dictionary methods and iteration</li>
+      <li>Choosing the right data structure</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>Create a student grade manager using dictionaries</li>
+      <li>Build a shopping cart system using lists</li>
+      <li>Practice problems on collections (10 exercises)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 3: Control Flow</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Conditional statements (if, elif, else)</li>
+      <li>Comparison and logical operators</li>
+      <li>Nested conditions</li>
+      <li>Real-world decision-making scenarios</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>For loops and range()</li>
+      <li>While loops</li>
+      <li>Loop control: break, continue, pass</li>
+      <li>Nested loops</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>Build a number guessing game</li>
+      <li>Create a pattern printer</li>
+      <li>Solve 10 loop-based problems</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 4: Functions</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Function definition and calling</li>
+      <li>Parameters and arguments</li>
+      <li>Return values</li>
+      <li>Scope (local vs global variables)</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Default parameters</li>
+      <li>*args and **kwargs</li>
+      <li>Lambda functions</li>
+      <li>Function best practices</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>Create a calculator with functions</li>
+      <li>Build a utility library (validation functions)</li>
+      <li>Refactor previous code using functions</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 5: Exception Handling & Weekly Project</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Understanding errors and exceptions</li>
+      <li>try, except, else, finally blocks</li>
+      <li>Raising exceptions</li>
+      <li>Custom exception handling</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li><strong>Weekly Project:</strong> Data Validator Application</li>
+      <li>Validate user inputs (email, phone, age)</li>
+      <li>File read/write with error handling</li>
+      <li>Menu-driven program</li>
+    </ul>
+  </div>
+  <div class="deliverable">
+    <h4>Week 1 Deliverables</h4>
+    <ul>
+      <li>Python fundamentals quiz (30 questions)</li>
+      <li>5 completed mini programs</li>
+      <li>Data Validator project with documentation</li>
+    </ul>
+  </div>
+</div>
+
+<!-- WEEK 2 -->
+<div class="week-header">
+  <h2>Week 2: Advanced Python + File & API Handling</h2>
+  <p>Object-Oriented Programming, File Operations, and REST APIs</p>
+</div>
+
+<div class="day-box">
+  <h3>Day 6: Object-Oriented Programming (Part 1)</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Classes and objects</li>
+      <li>Attributes and methods</li>
+      <li>The __init__ constructor</li>
+      <li>Creating and using objects</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Instance vs class variables</li>
+      <li>Method types (instance, class, static)</li>
+      <li>Encapsulation basics</li>
+      <li>Practice with real-world objects</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>Create a BankAccount class</li>
+      <li>Build an Employee management system</li>
+      <li>Design a Book library system</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 7: Object-Oriented Programming (Part 2)</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Inheritance and code reuse</li>
+      <li>Method overriding</li>
+      <li>super() function</li>
+      <li>Multiple inheritance basics</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Polymorphism concepts</li>
+      <li>Abstract classes introduction</li>
+      <li>OOP design principles</li>
+      <li>When to use OOP</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>Vehicle hierarchy (Car, Bike, Truck)</li>
+      <li>Shape calculator with inheritance</li>
+      <li>Refactor previous projects using OOP</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 8: File Handling</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Reading and writing text files</li>
+      <li>File modes (r, w, a, r+)</li>
+      <li>Context managers (with statement)</li>
+      <li>CSV file operations</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>JSON file handling</li>
+      <li>JSON serialization/deserialization</li>
+      <li>Working with different file formats</li>
+      <li>File path management</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>CSV to JSON converter</li>
+      <li>Log file analyzer</li>
+      <li>Configuration file handler</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 9: Virtual Environments & REST APIs</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Virtual environments (venv)</li>
+      <li>pip and package management</li>
+      <li>requirements.txt</li>
+      <li>Project structure best practices</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>REST API concepts</li>
+      <li>HTTP methods (GET, POST, PUT, DELETE)</li>
+      <li>Using the requests library</li>
+      <li>API response handling</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>Set up a project with virtual environment</li>
+      <li>Fetch data from a public API</li>
+      <li>Parse and save API responses</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 10: Logging & Weekly Project</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Python logging module</li>
+      <li>Log levels (DEBUG, INFO, WARNING, ERROR)</li>
+      <li>Logging to files</li>
+      <li>Formatting log messages</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li><strong>Weekly Project:</strong> Weather Data Aggregator</li>
+      <li>Fetch weather data from API</li>
+      <li>Parse JSON responses</li>
+      <li>Save to CSV with error handling</li>
+      <li>Implement comprehensive logging</li>
+    </ul>
+  </div>
+  <div class="deliverable">
+    <h4>Week 2 Deliverables</h4>
+    <ul>
+      <li>OOP mini-project (Employee/Library system)</li>
+      <li>Weather Data Aggregator with documentation</li>
+      <li>Code review preparation notes</li>
+    </ul>
+  </div>
+</div>
+
+<!-- WEEK 3 -->
+<div class="week-header">
+  <h2>Week 3: SQL Querying & Database Fundamentals</h2>
+  <p>Mastering relational databases and SQL operations</p>
+</div>
+
+<div class="day-box">
+  <h3>Day 11: Database Basics & SELECT Queries</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Relational database concepts</li>
+      <li>Tables, rows, columns</li>
+      <li>Primary keys and foreign keys</li>
+      <li>Database setup (MySQL/PostgreSQL)</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>SELECT statement fundamentals</li>
+      <li>WHERE clause and conditions</li>
+      <li>Comparison operators</li>
+      <li>ORDER BY and sorting</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>10 basic SELECT queries</li>
+      <li>Filter data using WHERE conditions</li>
+      <li>Sort results by multiple columns</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 12: Advanced Filtering & Pattern Matching</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>LIKE and wildcards</li>
+      <li>IN and BETWEEN operators</li>
+      <li>NULL handling (IS NULL, IS NOT NULL)</li>
+      <li>Logical operators (AND, OR, NOT)</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>DISTINCT keyword</li>
+      <li>LIMIT and pagination</li>
+      <li>Date and time functions</li>
+      <li>String functions</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>10 pattern matching exercises</li>
+      <li>Date-based queries</li>
+      <li>Complex WHERE conditions</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 13: JOINs</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Understanding relationships</li>
+      <li>INNER JOIN</li>
+      <li>LEFT JOIN (LEFT OUTER JOIN)</li>
+      <li>Practice with two tables</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>RIGHT JOIN</li>
+      <li>FULL OUTER JOIN</li>
+      <li>CROSS JOIN</li>
+      <li>Self joins</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>15 JOIN exercises</li>
+      <li>Multi-table queries</li>
+      <li>Real-world business scenarios (Orders + Customers)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 14: Aggregations & Grouping</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Aggregate functions (COUNT, SUM, AVG, MIN, MAX)</li>
+      <li>GROUP BY clause</li>
+      <li>HAVING clause</li>
+      <li>Difference between WHERE and HAVING</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Multiple aggregations</li>
+      <li>Grouping by multiple columns</li>
+      <li>Combining JOINs with GROUP BY</li>
+      <li>Business analytics queries</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>10 aggregation problems</li>
+      <li>Sales analysis queries</li>
+      <li>Customer behavior analytics</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 15: Subqueries, CTEs & Weekly Assessment</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Subqueries in WHERE clause</li>
+      <li>Subqueries in SELECT clause</li>
+      <li>Correlated subqueries</li>
+      <li>Common Table Expressions (CTEs)</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Index basics and performance</li>
+      <li>Query optimization tips</li>
+      <li><strong>SQL Assessment:</strong> 25 scenario-based problems</li>
+      <li>Time-bound challenge</li>
+    </ul>
+  </div>
+  <div class="deliverable">
+    <h4>Week 3 Deliverables</h4>
+    <ul>
+      <li>25 SQL practice problems completed</li>
+      <li>SQL assessment submission</li>
+      <li>Query optimization notes</li>
+    </ul>
+  </div>
+</div>
+
+<!-- WEEK 4 -->
+<div class="week-header">
+  <h2>Week 4: Stored Procedures & Database Programming</h2>
+  <p>Building complex database logic and business rules</p>
+</div>
+
+<div class="day-box">
+  <h3>Day 16: Stored Procedure Basics</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>What are stored procedures?</li>
+      <li>Benefits and use cases</li>
+      <li>Creating your first stored procedure</li>
+      <li>Parameters (IN, OUT, INOUT)</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Variables in stored procedures</li>
+      <li>SET statements</li>
+      <li>SELECT INTO</li>
+      <li>Calling stored procedures</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>5 basic stored procedures</li>
+      <li>Parameterized procedures</li>
+      <li>Data retrieval procedures</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 17: Control Flow in Stored Procedures</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>IF statements</li>
+      <li>CASE statements</li>
+      <li>Conditional logic in procedures</li>
+      <li>Decision-making scenarios</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>WHILE loops</li>
+      <li>REPEAT and LOOP</li>
+      <li>Cursors basics</li>
+      <li>Iterating through result sets</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>Conditional stored procedures</li>
+      <li>Loop-based data processing</li>
+      <li>5 control flow exercises</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 18: CRUD Operations & Transactions</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>INSERT procedures</li>
+      <li>UPDATE procedures</li>
+      <li>DELETE procedures</li>
+      <li>Validation in stored procedures</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Transaction concepts (ACID)</li>
+      <li>COMMIT and ROLLBACK</li>
+      <li>Error handling in transactions</li>
+      <li>Ensuring data integrity</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>Complete CRUD procedure set</li>
+      <li>Transaction-based operations</li>
+      <li>Error recovery scenarios</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 19: Advanced Stored Procedures</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Error handling (DECLARE HANDLER)</li>
+      <li>TRY-CATCH blocks</li>
+      <li>Raising custom errors</li>
+      <li>Logging within procedures</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Views and their benefits</li>
+      <li>Creating updatable views</li>
+      <li>Stored functions vs procedures</li>
+      <li>Performance considerations</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>Error-handling procedures</li>
+      <li>Create useful views</li>
+      <li>Complex business logic implementation</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 20: Database Mini-Project</h3>
+  <div class="session">
+    <div class="session-title">Full Day (6 hours)</div>
+    <ul>
+      <li><strong>Project:</strong> Order Management System</li>
+      <li>Customer, Product, Order tables</li>
+      <li>10+ stored procedures: Place order, Update inventory, Calculate totals, Generate reports, Handle returns</li>
+      <li>Transaction management</li>
+      <li>Comprehensive error handling</li>
+    </ul>
+  </div>
+  <div class="deliverable">
+    <h4>Week 4 Deliverables</h4>
+    <ul>
+      <li>Database schema with relationships</li>
+      <li>Complete set of stored procedures</li>
+      <li>Test cases and documentation</li>
+      <li>Demo presentation</li>
+    </ul>
+  </div>
+</div>
+
+<!-- WEEK 5 -->
+<div class="week-header">
+  <h2>Week 5: Snowflake (Cloud Data Platform)</h2>
+  <p>Cloud data warehousing and analytics</p>
+</div>
+
+<div class="day-box">
+  <h3>Day 21: Snowflake Introduction & Architecture</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Cloud data warehouse concepts</li>
+      <li>Snowflake architecture layers</li>
+      <li>Virtual warehouses</li>
+      <li>Creating Snowflake account</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Databases, schemas, tables</li>
+      <li>Snowflake Web UI navigation</li>
+      <li>Creating your first database</li>
+      <li>User roles and permissions basics</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>Set up Snowflake environment</li>
+      <li>Create database structure</li>
+      <li>Explore sample databases</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 22: Data Loading in Snowflake</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Internal and external stages</li>
+      <li>File formats</li>
+      <li>COPY INTO command</li>
+      <li>Loading CSV files</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Loading JSON and Parquet files</li>
+      <li>Data validation during load</li>
+      <li>Error handling</li>
+      <li>Monitoring data loads</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>Load 3 different file formats</li>
+      <li>Create file format objects</li>
+      <li>Troubleshoot load failures</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 23: Querying in Snowflake</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Snowflake SQL differences</li>
+      <li>Query performance basics</li>
+      <li>Result caching</li>
+      <li>Query history & profiling</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Analytical functions</li>
+      <li>Window functions</li>
+      <li>Semi-structured data</li>
+      <li>VARIANT data type</li>
+    </ul>
+  </div>
+  <div class="assignment">
+    <h4>Practice Assignment</h4>
+    <ul>
+      <li>15 analytical queries</li>
+      <li>JSON parsing exercises</li>
+      <li>Performance comparison</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 24: Snowflake Advanced Features</h3>
+  <div class="session">
+    <div class="session-title">Morning Session (3 hours)</div>
+    <ul>
+      <li>Time Travel</li>
+      <li>Querying historical data</li>
+      <li>Fail-safe concepts</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session (3 hours)</div>
+    <ul>
+      <li>Zero-copy cloning</li>
+      <li>Cost optimization</li>
+      <li>Warehouse sizing</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 25: Snowflake Optimization & Lab</h3>
+  <div class="session">
+    <div class="session-title">Full Day (6 hours)</div>
+    <ul>
+      <li>Clustering keys</li>
+      <li>Materialized views</li>
+      <li>E-commerce analytics lab</li>
+      <li>Time Travel & cloning</li>
+      <li>Query optimization</li>
+    </ul>
+  </div>
+  <div class="deliverable">
+    <h4>Deliverables</h4>
+    <ul>
+      <li>Snowflake lab submission</li>
+      <li>Cost-performance report</li>
+      <li>Snowflake vs Traditional DB comparison</li>
+    </ul>
+  </div>
+</div>
+
+<!-- WEEK 6 -->
+<div class="week-header">
+  <h2>Week 6: AWS Fundamentals + Kubernetes Basics</h2>
+  <p>Cloud infrastructure and containerization</p>
+</div>
+
+<div class="day-box">
+  <h3>Day 26: AWS Fundamentals</h3>
+  <div class="session">
+    <div class="session-title">Morning Session</div>
+    <ul>
+      <li>IaaS, PaaS, SaaS</li>
+      <li>AWS core services</li>
+      <li>Free Tier setup</li>
+      <li>IAM users and roles</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session</div>
+    <ul>
+      <li>EC2 instances</li>
+      <li>Security groups</li>
+      <li>SSH access</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 27: AWS S3 & VPC</h3>
+  <div class="session">
+    <div class="session-title">Morning Session</div>
+    <ul>
+      <li>S3 buckets</li>
+      <li>Storage classes</li>
+      <li>Bucket policies</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session</div>
+    <ul>
+      <li>VPC concepts</li>
+      <li>Public & private subnets</li>
+      <li>Internet gateway</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 28: Docker Fundamentals</h3>
+  <div class="session">
+    <div class="session-title">Morning Session</div>
+    <ul>
+      <li>Containers vs VMs</li>
+      <li>Docker architecture</li>
+      <li>Images & containers</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session</div>
+    <ul>
+      <li>Dockerfile</li>
+      <li>Build & run images</li>
+      <li>Docker CLI</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 29: Kubernetes Basics</h3>
+  <div class="session">
+    <div class="session-title">Morning Session</div>
+    <ul>
+      <li>Kubernetes architecture</li>
+      <li>Pods and nodes</li>
+      <li>Minikube setup</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session</div>
+    <ul>
+      <li>kubectl</li>
+      <li>Deployments</li>
+      <li>Services</li>
+    </ul>
+  </div>
+</div>
+
+<div class="day-box">
+  <h3>Day 30: Kubernetes YAML & Capstone Kickoff</h3>
+  <div class="session">
+    <div class="session-title">Morning Session</div>
+    <ul>
+      <li>YAML syntax</li>
+      <li>Deployment & service manifests</li>
+      <li>Labels and selectors</li>
+    </ul>
+  </div>
+  <div class="session">
+    <div class="session-title">Afternoon Session</div>
+    <ul>
+      <li>Capstone requirements</li>
+      <li>Architecture planning</li>
+      <li>Repo setup</li>
+    </ul>
+  </div>
+</div>
+    <div class="week-header">
+        <h2>Week 7: Kubernetes + Cloud Integration</h2>
+        <p>Scaling, monitoring, CI/
+            CD, and backend integration</p>
+    </div>
+    <div class="day-box">
+        <h3>Day 31: Scaling & Configuration</h3>
+        <div class="session">
+            <div class="session
+title">Morning Session (3 hours)</div>
+            <ul>
+                <li>ReplicaSets and scaling concepts</li>
+                <li>Horizontal Pod
+                    Autoscaling</li>
+                <li>Resource requests and limits</li>
+            </ul>
+        </div>
+        <div class="session">
+            <div class="session
+title">Afternoon Session (3 hours)</div>
+            <ul>
+                <li>ConfigMaps</li>
+                <li>Secrets</li>
+                <li>Environment-based
+                    configuration</li>
+            </ul>
+        </div>
+    </div>
+    <div class="day-box">
+        <h3>Day 32: Monitoring & Health Checks</h3>
+        <div class="session">
+            <div class="session-title">Morning Session (3 hours)</div>
+            <ul>
+                <li>Liveness and readiness probes</li>
+                <li>kubectl
+                    1
+                    logs and describe</li>
+            </ul>
+        </div>
+        <div class="session">
+            <div class="session-title">Afternoon Session (3
+                hours)</div>
+            <ul>
+                <li>Basic monitoring concepts</li>
+                <li>Debugging failed pods</li>
+            </ul>
+        </div>
+    </div>
+    <div class="day-box">
+        <h3>Day 33: CI/CD Concepts</h3>
+        <div class="session">
+            <div class="session
+title">Morning Session (3 hours)</div>
+            <ul>
+                <li>CI/CD pipelines overview</li>
+                <li>GitOps concepts</li>
+            </ul>
+            </div>
+            <div class="session">
+                <div class="session-title">Afternoon Session (3 hours)</div>
+                <ul>
+                    <li>GitHub
+                        Actions basics</li>
+                    <li>Automated Docker builds</li>
+                </ul>
+            </div>
+        </div>
+        <div class="day-box">
+            <h3>Day 34: Database Connectivity</h3>
+            <div class="session">
+                <div class="session
+title">Morning Session (3 hours)</div>
+                <ul>
+                    <li>Python DB connectivity</li>
+                    <li>Connection pooling</li>
+                    </ul>
+            </div>
+            <div class="session">
+                <div class="session-title">Afternoon
+                    Session(3
+            hours)</div>
+                    <ul>
+                        <li>Snowflake Python connector</li>
+                        <li>Error handling</li>
+                    </ul>
+                </div>
+            </div>
+             <div class="day-box">
+            <h3>Day 35: Capstone Integration</h3>
+            <div class="session">
+                <div class="session
+title">Full Day (6 hours)</div>
+                <ul>
+                    <li>End-to-end backend integration</li>
+                    <li>Multi-container deployment</li>
+                    <li>Testing and validation</li>
+                </ul>
+            </div>
+            <div class="deliverable">
+                <h4>Week 7 Deliverables</h4>
+                    <ul>
+                        <li>Cloud-ready backend service</li>
+                        <li>Updated architecture diagram</li>
+                    </ul>
+            </div>
+        </div>
+<!-- WEEK 8 -->
+<div class="week-header">
+  <h2>Week 8: QA Automation Engineer (Secondary Skill)</h2>
+  <p>Testing, automation, and CI quality gates</p>
+</div>
+
+<div class="day-box">
+  <h3>Day 36–40: QA Automation + Final Capstone Testing</h3>
+  <ul>
+    <li>PyTest & Selenium</li>
+    <li>API testing with requests</li>
+    <li>CI integration</li>
+    <li>Capstone automation test suite</li>
+  </ul>
+</div>
+
+<div class="capstone">
+  <h3>Capstone Project: Cloud-Deployed Python Application</h3>
+  <ul>
+    <li>FastAPI/Flask backend</li>
+    <li>SQL + Snowflake</li>
+    <li>Docker + Kubernetes</li>
+    <li>AWS integration</li>
+    <li>Automated testing & CI</li>
+  </ul>
+</div>
+
+</body>
+</html>
